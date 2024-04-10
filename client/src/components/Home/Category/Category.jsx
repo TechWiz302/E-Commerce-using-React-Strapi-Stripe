@@ -9,6 +9,7 @@ function Category({ categories }) {
     window.scrollTo(0, 0);
   })
   const navigate = useNavigate();
+
   return (
     <>
       <div className="shop-by-category">

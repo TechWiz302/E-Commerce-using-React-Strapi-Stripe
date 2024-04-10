@@ -31,7 +31,7 @@ function SingleProduct() {
         <div className="layout">
           <div className="single-product-page">
             <div className="left">
-              <img src={ product.img.data?.[0].attributes.url} alt="prod" />
+              <img src={product.img.data?.[0].attributes.url} alt="prod" />
             </div>
             <div className="right">
               <span className="name">{product.title}</span>

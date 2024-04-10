@@ -11,11 +11,12 @@ function Home() {
 
   useEffect(() => {
     getCategories();
-    getProducts();
+    getProducts(); 
   }, []);
 
   const getCategories = async () => {
     fetchDataFromApi("/api/categories?populate=*").then((res) => {
+      console.log(res)
       setCategories(res);
     }
     )
